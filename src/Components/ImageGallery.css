@@ -1,0 +1,49 @@
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  .gallery-item {
+    width: calc(33.33% - 10px);
+    text-align: left;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: 300px;
+    
+  }
+  
+  .image-details {
+    padding: 10px;
+  
+  }
+  
+  .image-name {
+    margin: 0;
+  }
+  
+  .image-description {
+    margin: 5px 0;
+  }
+  
+  .image-author {
+    margin: 0;
+    font-style: italic;
+    /* color: #777; */
+  }
+  
+  .image-rating {
+    margin-top: 5px;
+    font-weight: bold;
+    color: #ff9800;
+  }
+
+  .star {
+    color: #ff9800;
+  }
+  
+ 
